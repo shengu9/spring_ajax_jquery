@@ -22,4 +22,6 @@ public class AjaxMemberDto {
   private LocalDateTime createTimme;
 
   private LocalDateTime updateTime;
+
+
 }
