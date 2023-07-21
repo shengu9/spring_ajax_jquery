@@ -19,7 +19,7 @@ $('.gnb>ul>li').eq(1).css('background-color','#000000');// 리스트1
 //$('.gnb>ul>li').eq(0).on('click', ()=>{   });
 
 
-      // 템플릿 리터널
+// 템플릿 리터널
 const data=`
   <div>
     <ul>
@@ -32,9 +32,8 @@ const data=`
 ` ;
 $('.box').css({'width':'300px','height':'300px','border':'1px solid #ff0000'});
 // 이벤트 구현 3
-$('.gnb>ul>li').eq(0).on('click', fn1);
+$('.gnb>ul>li').eq(1).on('click', fn1);
 function fn1(){
-
   $('.box').html(data);
 
 }
