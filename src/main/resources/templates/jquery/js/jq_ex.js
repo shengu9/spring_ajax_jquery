@@ -37,14 +37,14 @@ function fn1(){
   $('.box').html(data);
 
 }
+ $('.box').html();
+$('h1.logo').text("텍스트");
+$('h1.logo').text();
 
-
-
-
-
-
-
-
+//이벤트 태그에 직접 설정
+function btn1Fn(){
+  alert("btn1Fn ");
+}
 
 
 
